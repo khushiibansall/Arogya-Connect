@@ -1,0 +1,921 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+    color: #2d2d32;
+}
+
+
+
+
+#respoviesNavbarMaiandiv {
+    display: none;
+}
+
+
+
+/* NavBar Css part start */
+
+#NavBar {
+    display: grid;
+    grid-template-columns: 11% 45% 17% 10%;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+}
+
+#NavBar>.NavFirstSection {
+    width: 95%;
+    align-items: center;
+}
+
+#NavBar>.NavFirstSection> a > img {
+    width: 72%;
+}
+
+#NavBar>.NavSecondSection {
+    display: flex;
+    gap: 12px;
+    cursor: pointer;
+}
+
+
+
+#NavBar>.NavSecondSection> a {
+    width: 20%;
+    padding: 4px;
+    text-decoration: none;
+}
+
+#NavBar>.NavSecondSection> a > div>h4 {
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 550;
+    color: #2d2d32;
+}
+
+#NavBar>.NavSecondSection> a > div>p {
+    font-size: 12px;
+    color: #787887;
+}
+#NavBar>.NavSecondSection> a > div>h4:hover{
+    color: #112092;
+}
+
+#NavBar>.NavThirdSection > ul > li{
+    color: #414146;
+    font-size: 14px;
+    padding: 8px;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+
+#NavBar>.NavThirdSection > ul{
+    align-items: center;
+    display: flex;
+    position: relative;
+    list-style: none;
+    gap:0px;
+}
+
+#forProvidersmanu , #Securitysmanu{
+    display: none;
+
+}
+
+#forProvider:hover #forProvidersmanu{
+    display: block;
+    width: 230px;
+    margin-left: -100px;
+    position: absolute;
+    left:100;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+#SecurityHelpNav:hover #Securitysmanu{
+    display: block;
+    width: 230px;
+     margin-left: -60px;
+     position: absolute;
+     left:100;
+     background-color: #ffffff;
+     border-radius: 5px;
+     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.samenav2 > ul {
+    list-style: none;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0px;
+}
+.samenav2 > ul > a > li {
+    margin: 10px 0px;
+    padding: 15px;
+}
+#new{
+    background-color: rgb(255, 174, 0);
+    font-size: 12px;
+    padding: 6px;
+    color: #fff;
+   float: right;
+   margin-right: 20px;
+   margin-top: -2px;
+}
+
+
+.samenav2 > ul > a> li:hover{
+   background-color: #F0F1F4    ;
+}
+
+#NavBar>.NavFourSection>.loginSignUp>a>button {
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 400;
+    background-color: transparent;
+    color: #787887;
+    border-radius: 4px;
+    border: solid 1px#d3d3d3;
+    padding: 8px 10px;
+}
+
+#NavBar>.NavFourSection>.loginSignUp>a>button:hover {
+    border: solid 1px#00d9ff;
+    color: #00d9ff;
+}
+
+
+/* NavBar Css part end */
+
+#Homepagewarp {
+    width: 85%;
+    margin: auto;
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 430px){
+    #Homepagewarp {
+        width: 95%;
+        margin: auto;
+    }
+    
+}
+
+@media screen and (min-width: 430px) and (max-width: 768px){
+    #Homepagewarp {
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 770px) and (max-width: 1440px){
+    #Homepagewarp {
+        width: 100%;
+        margin: auto;
+    }
+}
+
+
+/* second part css start */
+
+#Homepagewarp>.HomeSecondsection {
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px 10px 0px;
+    color: #414146;
+}
+
+.HomeSecondsection>.input1part{
+    display: flex;
+}
+
+.HomeSecondsection>.input1part .secondbar > .loctionserch1 > input , .loctionserch  >input{
+    width: 90%;
+    border: none;
+    font-size: 13px;
+    outline: none;
+}
+
+
+.HomeSecondsection>.input1part .secondbar > .loctionserch1 {
+    border: 1px solid rgba(148, 148, 148, 0.37);
+    border-radius: 2px;
+    width: 350px;
+    padding: 10px 12px 12px 8px;
+}
+
+.secondbar > .loctionserch{
+    border: 1px solid rgba(148, 148, 148, 0.37);
+    border-radius: 2px;
+    width: 350px;
+    padding: 10px 12px 12px 8px;
+}
+
+.fa-chevron-down{
+    display: none;
+}
+
+.HomeSecondsection>.input1part .secondbar > .loctionserch1 > i {
+    margin-right: 10px;
+    margin-left: 6px;
+    color: #5e5e61;
+    font-size: 13px;
+}
+ 
+.secondbar > .loctionserch > i {
+    margin-right: 10px;
+    margin-left: 6px;
+    color: #5e5e61;
+    font-size: 13px;
+}
+
+.loctiondata{
+    position: absolute;
+    width: 24.4%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: #fff;
+    display: none;
+}
+.loction{
+    display: flex;
+}
+
+.loctionserch1 > .fa-times-circle{
+    font-size: 15px;
+    display: none;
+}
+
+.loction:active .loctiondata{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.loctiondata > ul {
+    list-style: none;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid rgba(95, 95, 95, 0.582);
+}
+
+.loctiondata  li {
+    border-bottom:1px solid rgba(156, 156, 156, 0.185); 
+    padding: 15px 5px ;
+    font-size: 14px;
+    font-weight:400;
+}
+
+.loctiondata li{
+    display: block;
+}
+
+.loctiondata li:hover{
+    background-color: #d1d1d142;
+}
+
+.loctiondata  li  i {
+    background-color: #cacaca3d;
+    border-radius: 50%;
+    color: #787887;
+    padding: 8px;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+
+
+
+.search{
+    display: flex;
+}
+
+.search > .fa-times-circle{
+    font-size: 15px;
+    display: none;
+}
+
+
+.serachmain:active .searchdata{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+
+
+.searchdata{
+    position: absolute;
+    width: 24.4%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: #fff;
+    display: none;
+}
+
+.searchdata > ul {
+    list-style: none;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid rgba(95, 95, 95, 0.582);
+}
+
+.searchdata  li {
+    border-bottom:1px solid rgba(156, 156, 156, 0.185); 
+    padding: 15px 5px ;
+    font-size: 14px;
+    font-weight:400;
+}
+
+.searchdata li{
+    display: block;
+}
+
+.searchdata li:hover{
+    background-color: #d1d1d142;
+}
+
+.searchdata  li  i {
+    background-color: #cacaca3d;
+    border-radius: 50%;
+    color: #787887;
+    padding: 8px;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+
+
+.HomeSecondsection>.adimg>img {
+    width: 60%;
+    height: 95%;
+}
+
+.HomeSecondsection>.adimg {
+    text-align: right;
+}
+
+@media screen and (min-width: 0px) and (max-width: 430px){
+    #Homepagewarp{width:50%}
+    #Homepagewarp>.HomeSecondsection{
+        display: block;
+    }
+    .HomeSecondsection>.input1part{
+        display: block;
+    }
+    .HomeSecondsection>.adimg{
+        display: none;
+    }
+    .loctiondata{
+        width: 80%;
+    }
+    .loction{
+        margin-bottom: 10px;
+    }
+
+    
+    .HomeSecondsection>.input1part .secondbar > .loctionserch1 > input {
+        
+        width: 70%;
+    }
+
+    .secondbar > .loctionserch > input {
+        
+        width: 70%;
+    }
+
+    .HomeSecondsection>.input1part .secondbar > .loctionserch1{
+        width: 90%;
+        padding: 10px 0px;
+    }
+
+    .secondbar > .loctionserch{
+        width: 90%;
+        margin: auto;
+        padding: 10px 0px;
+    }
+
+    .HomeSecondsection>.input1part .loctionmanin> .loctionserch1 > input{
+        width: 70%;
+        font-weight: 900;
+        margin-top:-4px;
+
+    }
+
+    .HomeSecondsection>.input1part .secondbar > .loctionserch1 {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 10px;
+        border: none;
+        padding: 10px 0px;
+    }
+
+    .loctionserch > input{
+        width: 70%;
+        font-weight: 900;
+        margin-top:-4px;
+
+    }
+
+    .loctionserch1{
+        border: none;
+    }
+    .fa-chevron-down{
+        display: inline-block;
+    }
+
+}
+
+
+@media screen and (min-width: 431px) and (max-width: 768px){
+    #Homepagewarp>.HomeSecondsection{
+        display: block;
+    }
+    .HomeSecondsection>.input1part{
+        display: block;
+    }
+    .HomeSecondsection>.adimg{
+        display: none;
+    }
+
+    .loctiondata{
+        width: 80%;
+    }
+   
+    .loction{
+        margin-bottom: 10px;
+    }
+    .HomeSecondsection>.input1part .secondbar > .loctionserch{
+        width: 70%;
+        margin: auto;
+        padding: 10px 0px;
+    }
+    .HomeSecondsection>.input1part .secondbar > .loctionserch1{
+        margin: auto;
+        border: none;
+    }
+    .HomeSecondsection>.input1part .loctionmanin> .loctionserch > input{
+        width: 15%;
+        font-weight: 900;
+        margin-top:-4px;
+
+    }
+    .loctiondata {
+        width: 62%;
+    }
+    .searchdata{
+        width: 65%;
+        margin-left: 50px;
+    }
+    .HomeSecondsection > .input1part > .loctionmanin > .loctionserch{
+        border: none;
+    }
+    .fa-chevron-down{
+        display: inline-block;
+    }
+}
+
+
+/* second part css end */
+
+
+
+
+/* Third part css start */
+
+#HomethirdSection {
+    width: 94%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#HomethirdSection > img{
+    display: none;
+}
+
+#HomethirdSection>.thirdlinerback {
+    cursor: pointer;
+    display: flex;
+    padding: 5px 5px 0px 5px;
+    background-image: linear-gradient(105.21deg, rgb(55, 67, 171) 2.85%, rgb(20, 27, 86) 99.41%);
+    border-radius: 32px;
+    height: 300px;
+    margin-top: 40px;
+    color: #fff;
+}
+
+#HomethirdSection>.thirdlinerback>.leftsidecontect {
+    width: 70%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 60px;
+}
+
+#HomethirdSection>.thirdlinerback>.leftsidecontect>img {
+    width: 240px;
+    height: 50px;
+    margin-bottom: 25px;
+}
+
+#HomethirdSection>.thirdlinerback>.leftsidecontect>h3 {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+#HomethirdSection>.thirdlinerback>.leftsidecontect>h1 {
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+#HomethirdSection>.thirdlinerback>.leftsidecontect>button {
+    background: #fff;
+    padding: 10px 24px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #2d2d32;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+#HomethirdSection>.thirdlinerback>.rightsideimg {
+    text-align: center;
+    margin-right: 0px;
+}
+
+#HomethirdSection>.thirdlinerback>.rightsideimg>img {
+    margin-left: -27px;
+    width: 84%;
+    margin-top: -5.6%;
+}
+
+/* third section media qe */
+
+@media screen and (min-width: 0px) and (max-width: 430px){
+    #HomethirdSection{
+        width: 90%;
+        margin-top: 0;
+    }
+    #HomethirdSection>.thirdlinerback{
+       display: none;
+    }
+    #HomethirdSection > img{
+        display: block;
+        width: 100%;
+    }
+}
+
+
+
+@media screen and (min-width: 431px) and (max-width: 768px){
+    #HomethirdSection{
+        width: 90%;
+    }
+    #HomethirdSection>.thirdlinerback{
+       display: none;
+    }
+    #HomethirdSection{
+        width: 90%;
+       margin: auto;
+    } 
+    #HomethirdSection > img{
+        display: block;
+        width: 100%;
+    }
+}
+
+/* Third part css end */
+
+
+/* Four part css start  */
+
+#HomeFourSection {
+    margin-top: 60px;
+}
+
+.FourCardMeandiv>.FourAllCard {
+    display: flex;
+    gap: 15px;
+}
+
+.FourAllCard>.card {
+    border: 1px solid #f0f0f5;
+    width: 220px;
+    height: 320px;
+    cursor: pointer;
+    border-radius: 24px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.FourAllCard>.card>.cardimg {
+    background-color: #AFCFED;
+    padding: 14px 40px 40px 0px;
+    width: 83%;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    height: 163px;
+}
+
+.FourAllCard>.card>.cardText {
+    padding-top: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.FourAllCard>.card>.cardText>h3 {
+    font-size: 18px;
+    padding-bottom: 8px;
+}
+
+.FourAllCard>.card>.cardText>p {
+    font-size: 14px;
+    color: #787887;
+}
+
+.FourAllCard>.card>.cardimg>img {
+    margin-left: 20px;
+    width: 95%;
+    height: 203px;
+}
+
+.FourAllCard>.Card2>.cardimg {
+    background-color: #98CBD6;
+    width: 80%;
+}
+
+.FourAllCard>.Card2>.cardimg>img {
+    width: 100%;
+}
+
+.FourAllCard>.Card3>.cardimg {
+    background-color: #CCD0DB;
+}
+
+.FourAllCard>.Card5>.cardimg {
+    background-color: #D5D8FC;
+    width: 100%;
+}
+
+@media screen and (min-width: 0px) and (max-width: 430px){
+  
+#HomeFourSection {
+    display: none;
+}
+
+} 
+
+@media screen and (min-width: 431px) and (max-width: 768px){
+      
+#HomeFourSection {
+    display: none;
+}
+#responsivefourSection{
+    display: block;
+}
+}
+
+#responsivefourSection{
+    display: none;
+}
+
+
+/* Four part css end  */
+
+
+/* Five section css start */
+
+#HomeFiveSection>.Heading5part {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    color: #38383a;
+}
+
+#HomeFiveSection>.Heading5part>.leftTextSection>h2 {
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+#HomeFiveSection>.Heading5part>.leftTextSection>h3 {
+    color: #414146;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#HomeFiveSection>.Heading5part>.leftbtn> a > button {
+    font-size: 14px;
+    color: #14bef0;
+    font-weight: 400;
+    cursor: pointer;
+    padding: 12px 16px;
+    border: 1.5px solid #14bef0;
+    background-color: #fff;
+    right: 10px;
+    top: 22px;
+}
+
+#HomeFiveSection>.allIcon {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#HomeFiveSection>.allIcon>.icon {
+    padding: 28px;
+    margin: auto;
+}
+
+#HomeFiveSection>.allIcon>.icon>.iconimg {
+    width: 140px;
+    height: 130px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+#HomeFiveSection>.allIcon>.icon>h3 {
+    font-size: 16px;
+    margin-top: 8px;
+    font-weight: 700;
+}
+
+#HomeFiveSection>.allIcon>.icon>h4 {
+    font-size: 12px;
+    margin-top: 10px;
+    font-weight: 700;
+    color: #00a2ffd8;
+}
+
+#HomeFiveSection>.allIcon>.icon>.iconimg>img {
+    width: 100%;
+    height: 100%;
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 430px){
+    #HomeFiveSection{
+        display: none;
+    }
+    .heaing6{
+        padding: 10px 10px 0px 10px;
+    }
+}
+
+@media screen and (min-width: 431px) and (max-width: 768px){
+    #HomeFiveSection{
+        display: none;
+    }
+    .heaing6{
+        padding: 10px 10px 0px 10px;
+    }
+}
+
+/* Five section css end */
+
+
+/* Six Section this is silder section dont change it dwon*/
+
+#HomeSixSection {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+#HomeSixSection>.cardSilder {
+    margin-top: 20px;
+}
+
+#HomeSixSection>.cardSilder>div>div {
+    width: 25%;
+}
+
+.slidercard>img {
+    width: 88%;
+    height: 240px;
+}
+
+.slidercard>img:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#HomeSixSection>.heaing6>h3 {
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+#HomeSixSection>.heaing6>h4 {
+    color: #414146;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.slidercard>h3 {
+    font-size: 14px;
+    margin: 10px 0px;
+}
+
+.slidercard>h3:hover {
+    color: #00d9ff;
+    cursor: pointer;
+}
+
+.slidercard>h4 {
+    color: #414146;
+    font-size: 14px;
+}
+#HomeSixSection>span {
+    font-size: 25px;
+}
+
+#HomeSixSection>span i {
+    margin-bottom: -150px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 430px){
+
+    #HomeSixSection {
+        margin-top: 31px;
+        margin-bottom: 85px;
+    }
+
+    hr{
+        display: none;
+    }
+    .heaing6 > h3{
+        display: none;
+    }
+    .slidercard>h4 {
+        display: none;
+    }
+    .slidercard>h3{
+        padding:5px 5px 3px 5px;
+        font-size: 12px;
+    }
+    #HomeSixSection>.cardSilder>div>div {
+        width: 100%;
+    }
+    .slidercard{
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        margin-left: 10px;
+        font-size: 14px;
+    }
+    .slidercard>img {
+        width: 100%;
+        height: 130px;
+    }
+    .slick-dotted.slick-slider {
+        margin-bottom: -50px;
+    }
+
+}
+
+
+@media screen and (min-width: 431px) and (max-width: 768px){
+    #HomeSixSection {
+        margin-top: 31px;
+        margin-bottom: 85px;
+    }
+
+    hr{
+        display: none;
+    }
+    .heaing6 > h3{
+        display: none;
+    }
+    .slidercard>h4 {
+        display: none;
+    }
+    .slidercard>h3{
+        padding:5px 5px 3px 5px;
+        font-size: 12px;
+    }
+    #HomeSixSection>.cardSilder>div>div {
+        width: 80%;
+    }
+    .slidercard{
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        margin-left: 10px;
+        font-size: 14px;
+    }
+    .slidercard>img {
+        width: 100%;
+        height: 130px;
+    }
+    .slick-dotted.slick-slider {
+        margin-bottom: -50px;
+    }
+}
+
+
+
+
+/* Six Section this is silder section dont change it up*/
