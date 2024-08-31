@@ -9,16 +9,6 @@ a{
     text-decoration: none;
     color: #2d2d32;
 }
-
-
-
-
-#respoviesNavbarMaiandiv {
-    display: none;
-}
-
-
-
 /* NavBar Css part start */
 
 #NavBar {
@@ -65,50 +55,6 @@ a{
 }
 #NavBar>.NavSecondSection> a > div>h4:hover{
     color: #112092;
-}
-
-#NavBar>.NavThirdSection > ul > li{
-    color: #414146;
-    font-size: 14px;
-    padding: 8px;
-    font-weight: 200;
-    cursor: pointer;
-}
-
-
-#NavBar>.NavThirdSection > ul{
-    align-items: center;
-    display: flex;
-    position: relative;
-    list-style: none;
-    gap:0px;
-}
-
-#forProvidersmanu , #Securitysmanu{
-    display: none;
-
-}
-
-#forProvider:hover #forProvidersmanu{
-    display: block;
-    width: 230px;
-    margin-left: -100px;
-    position: absolute;
-    left:100;
-    background-color: #ffffff;
-    border-radius: 5px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-}
-
-#SecurityHelpNav:hover #Securitysmanu{
-    display: block;
-    width: 230px;
-     margin-left: -60px;
-     position: absolute;
-     left:100;
-     background-color: #ffffff;
-     border-radius: 5px;
-     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 .samenav2 > ul {
